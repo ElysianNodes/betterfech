@@ -11604,7 +11604,7 @@ main() {
 
     # Add neofetch info to verbose output.
     err "Neofetch command: $0 $*"
-    err "Neofetch version: $version"
+    err "Betterfech version: $version"
 
     [[ $verbose == on ]] && printf '%b\033[m' "$err" >&2
 
