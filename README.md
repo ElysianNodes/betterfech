@@ -22,4 +22,18 @@ You can further configure Neofetch to display exactly what you want it to. Throu
 Neofetch supports almost 150 different operating systems. From Linux to Windows, all the way to more obscure operating systems like Minix, AIX and Haiku. If your favourite operating system is unsupported: Open up an issue and support will be added.
 
 
-### More: \[[Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)\] \[[Installation](https://github.com/dylanaraps/neofetch/wiki/Installation)\] \[[Wiki](https://github.com/dylanaraps/neofetch/wiki)\]
+### More: \[[Dependencies](https://github.com/dylanaraps/neofetch/wiki/Dependencies)\] [[Wiki](https://github.com/dylanaraps/neofetch/wiki)\]
+
+## Installation:
+
+    Git clone the repo.
+        git clone https://github.com/elysiannodes/betterfetch
+    Change working directory to neofetch.
+        cd neofetch
+    Install neofetch using the Makefile.
+        make install
+        MacOS: make PREFIX=/usr/local install
+        Haiku: make PREFIX=/boot/home/config/non-packaged install
+        OpenIndiana: gmake install
+        MinGW/MSys: make -i install
+        NOTE: You may have to run this as root.
