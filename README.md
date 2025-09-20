@@ -37,3 +37,8 @@ Neofetch supports almost 150 different operating systems. From Linux to Windows,
         OpenIndiana: gmake install
         MinGW/MSys: make -i install
         NOTE: You may have to run this as root.
+
+        
+## Usage:
+
+    Same as neofetch you simply run neofetch in console.
